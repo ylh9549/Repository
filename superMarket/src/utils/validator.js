@@ -1,0 +1,4 @@
+export function passwordReg(val){
+	const reg = /^[a-zA-Z]\w{2,5}$/;
+	return reg.test(val)
+}
